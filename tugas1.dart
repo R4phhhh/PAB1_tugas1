@@ -21,7 +21,7 @@ class Produk {
 }
 
 void main() {
-  Produk produk = Produk("Kamera", 2000000, 2, 10);
+  Produk produk = Produk("Kamera", 1500000, 2, 10);
   produk.tampilkanInformasiProduk();
   produk.hitungTotalHargaTanpaDiskon();
   produk.hitungTotalHargaSetelahDiskon();
